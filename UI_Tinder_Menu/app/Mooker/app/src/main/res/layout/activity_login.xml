@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".Login" android:background="#FFFFFF">
+
+  <View
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:background="#c9e7ff"
+      android:id="@+id/back"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentStart="true"></View>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/logo_mooker"
+        android:src="@drawable/logo"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:id="@+id/book"
+        android:src="@drawable/book"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="125dp"
+        android:layout_marginRight="100dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/fb_login"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/login_fb"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/edx_login"
+        android:src="@drawable/login_edx"
+        android:layout_below="@+id/logo_mooker"
+        android:layout_alignLeft="@+id/fb_login"
+        android:layout_alignStart="@+id/fb_login"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/fac" />
+
+
+</RelativeLayout>
