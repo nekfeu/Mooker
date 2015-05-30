@@ -4,5 +4,13 @@
     <string name="app_name">Mooker</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">426425120872673</string>
+    <string name="title_section1">Accueil</string>
+    <string name="title_section2">Mon Compte</string>
+    <string name="title_section3">PhotoBook</string>
+    <string name="title_section4">Contact</string>
+    <string name="title_section5">Deconnexion</string>
+    <string name="navigation_drawer_open">Open navigation</string>
+    <string name="navigation_drawer_close">Navigation close</string>
 
 </resources>

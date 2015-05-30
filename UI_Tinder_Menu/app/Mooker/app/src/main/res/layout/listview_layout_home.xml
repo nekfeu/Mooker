@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:paddingBottom="13dp"
+    android:paddingTop="13dp">
+
+    <TextView
+        android:id="@+id/name_event_net"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#212850"
+        android:fontFamily="sans-serif-light" />
+
+    <TextView
+        android:id="@+id/date_net"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="#212850"
+        android:fontFamily="sans-serif-light" />
+
+</LinearLayout>
+
+</LinearLayout>

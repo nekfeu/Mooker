@@ -2,7 +2,14 @@
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" tools:context=".Login" android:background="#FFFFFF">
 
-  <View
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fac" />
+
+    <View
       android:layout_width="100dp"
       android:layout_height="100dp"
       android:background="#c9e7ff"
@@ -13,6 +20,18 @@
       android:layout_alignParentTop="true"
       android:layout_alignParentLeft="true"
       android:layout_alignParentStart="true"></View>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:id="@+id/cloud"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/nuage"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="20dp"
+        android:visibility="invisible" />
 
     <ImageView
         android:layout_width="200dp"
@@ -37,30 +56,42 @@
     <ImageView
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:id="@+id/fb_login"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/login_fb"
-        android:visibility="invisible" />
-
-    <ImageView
-        android:layout_width="300dp"
-        android:layout_height="50dp"
         android:id="@+id/edx_login"
-        android:src="@drawable/login_edx"
+        android:src="@drawable/login_edx_dbordure"
         android:layout_below="@+id/logo_mooker"
         android:layout_alignLeft="@+id/fb_login"
         android:layout_alignStart="@+id/fb_login"
         android:visibility="invisible" />
 
+
+    <com.facebook.login.widget.LoginButton
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Login Facebook"
+        android:id="@+id/btnFacebook"
+        android:layout_alignTop="@+id/fb_login"
+        android:layout_alignLeft="@+id/logo_mooker"
+        android:layout_alignStart="@+id/logo_mooker"
+        android:visibility="invisible" />
+
     <ImageView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/fb_login"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/login_fb_dbordure"
+        android:visibility="invisible"/>
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:src="@drawable/fac" />
-
+        android:text="Development version 1.0.0"
+        android:id="@+id/version"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginBottom="10dp"
+        android:visibility="invisible" />
 
 </RelativeLayout>
